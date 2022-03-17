@@ -1,0 +1,10 @@
+WhereField = input("경기장은 어디입니까?")
+WinnerTeam = input("이긴팀은 어디입니까?")
+LoserTeam = input("진팀은 어디입니까?")
+WhoIsMOM = input("우수선수는 누구입니까?")
+Score = input("스코어는 몇대몇입니까?")
+
+print("오늘", WhereField, "에서 야구경기가 열렸습니다.")
+print(WinnerTeam, "과", LoserTeam, "은 치열한 공방전을 벌였습니다.")
+print(WhoIsMOM, "이 맹활약을 하였습니다.")
+print("결국", WinnerTeam, "가", LoserTeam, "를", Score, "로 이겼습니다")
